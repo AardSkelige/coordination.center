@@ -1751,3 +1751,53 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+/*--------------------------------------------------------------
+# News page
+--------------------------------------------------------------*/
+.news-image{
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  padding: 0 10px;
+}
+.news-image img{
+  border-radius: 0.5em;
+}
+.news-box{
+  text-align: center;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 40px 30px;
+  width: 100%;
+}
+.news-box:hover{
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+}
+.pic-cover{
+  max-width: 30%;
+}
+.news-text-cover{
+  margin: 0 10px;
+  text-align: left;
+  position: relative;
+  color:#0f45c7;
+  display: grid;
+  grid-template-columns: 100%;
+  row-gap: 0.5em;
+}
+.space-between-news{
+  margin-bottom: 3em;
+}
+a.active.pagination-list-item{
+  color:black;
+}
+.pagination-list-item{
+  margin: 0 0.5em;
+}
+.news-box.no-border{
+  border: none;
+  box-shadow: none;
+}
