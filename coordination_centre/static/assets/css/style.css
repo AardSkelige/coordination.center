@@ -1161,45 +1161,45 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Doctors
+# Workers
 --------------------------------------------------------------*/
-.doctors {
+.workers {
   background: #fff;
 }
 
-.doctors .member {
+.workers .member {
   position: relative;
   box-shadow: 0px 2px 15px rgba(44, 73, 100, 0.08);
   padding: 30px;
   border-radius: 10px;
 }
 
-.doctors .member .pic {
+.workers .member .pic {
   overflow: hidden;
   width: 180px;
   border-radius: 50%;
 }
 
-.doctors .member .pic img {
+.workers .member .pic img {
   transition: ease-in-out 0.3s;
 }
 
-.doctors .member:hover img {
+.workers .member:hover img {
   transform: scale(1.1);
 }
 
-.doctors .member .member-info {
+.workers .member .member-info {
   padding-left: 30px;
 }
 
-.doctors .member h4 {
+.workers .member h4 {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
   color: #2c4964;
 }
 
-.doctors .member span {
+.workers .member span {
   display: block;
   font-size: 15px;
   padding-bottom: 10px;
@@ -1207,7 +1207,7 @@ section {
   font-weight: 500;
 }
 
-.doctors .member span::after {
+.workers .member span::after {
   content: "";
   position: absolute;
   display: block;
@@ -1218,19 +1218,19 @@ section {
   left: 0;
 }
 
-.doctors .member p {
+.workers .member p {
   margin: 10px 0 0 0;
   font-size: 14px;
 }
 
-.doctors .member .social {
+.workers .member .social {
   margin-top: 12px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
 
-.doctors .member .social a {
+.workers .member .social a {
   transition: ease-in-out 0.3s;
   display: flex;
   align-items: center;
@@ -1241,17 +1241,17 @@ section {
   background: #a0bcd5;
 }
 
-.doctors .member .social a i {
+.workers .member .social a i {
   color: #fff;
   font-size: 16px;
   margin: 0 2px;
 }
 
-.doctors .member .social a:hover {
+.workers .member .social a:hover {
   background: #1977cc;
 }
 
-.doctors .member .social a+a {
+.workers .member .social a+a {
   margin-left: 8px;
 }
 
