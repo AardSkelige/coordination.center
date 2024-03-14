@@ -12,7 +12,7 @@ services:
       - postgres_data:/var/lib/postgresql/data/
 
   django:
-    image: cc_image:latest
+    image: jkulikova/coodination_centre:latest
     restart: always
     ports:
       - "8000:8000"
