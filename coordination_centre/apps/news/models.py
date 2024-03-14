@@ -5,7 +5,7 @@ class News(models.Model):
     title = models.TextField()
     description = models.TextField()
     text = models.TextField()
-    image = models.ImageField(upload_to='news/')
+    image = models.ImageField(upload_to='news/', null=True, blank=True)
     visible = models.BooleanField(default=True)
     created_at = models.DateTimeField(auto_now_add=True)
 
