@@ -37,6 +37,9 @@
                                 </div>
                                 <div class="news-text-cover">
                                     <div><h4>{{ item.title }}</h4></div>
+                                    {% if item.description != "" %}
+                                    <div><p>{{ item.description }}</p></div>
+                                    {% endif %}
                                     <div><p>{{ item.posted_at }}</p></div>
                                 </div>
                             </div>

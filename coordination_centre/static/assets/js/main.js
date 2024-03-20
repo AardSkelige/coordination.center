@@ -46,12 +46,12 @@
    */
   let navbarlinks = select('#navbar .scrollto', true)
   const navbarlinksActive = () => {
-    let position = window.scrollY + 200
+    let currentLink = window.location.href.split("/").filter(item => item !== '').pop()
     navbarlinks.forEach(navbarlink => {
-      if (!navbarlink.hash) return
-      let section = select(navbarlink.hash)
-      if (!section) return
-      if (position >= section.offsetTop && position <= (section.offsetTop + section.offsetHeight)) {
+      // if (!navbarlink.hash) return
+      // let section = select(navbarlink.hash)
+      // if (!section) return
+      if (navbarlink.id == currentLink) {
         navbarlink.classList.add('active')
       } else {
         navbarlink.classList.remove('active')
