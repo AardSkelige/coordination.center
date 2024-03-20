@@ -22,3 +22,9 @@ def news_id(request, news_id):
     news = News.objects.filter(id=news_id).first()
 
     return render(request, 'news_id.html', {'news':news})
+
+def handle_404(request, exception):
+    return render(request, '404.html')
+
+def handle_500(request, exception=None):
+    return render(request, '500.html')

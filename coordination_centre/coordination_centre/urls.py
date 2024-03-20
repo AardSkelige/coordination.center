@@ -21,11 +21,16 @@ from coordination_centre import views
 from django.conf import settings
 from django.conf.urls.static import static
 from django.urls import re_path
+from django.views.static import serve
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index),
     re_path(r'news/(?P<news_id>\d+)$', views.news_id),
-    path('news/', views.news),    
+    path('news/', views.news),  
+    re_path('media/(?P<path>.*)$', serve, {'document_root': settings.MEDIA_ROOT}),
+    re_path('static/(?P<path>.*)$', serve, {'document_root': settings.STATIC_ROOT})
 ]
-urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+handler404 = "coordination_centre.views.handle_404"
+handler500 = "coordination_centre.views.handle_500"
