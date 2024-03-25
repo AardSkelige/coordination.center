@@ -1,0 +1,23 @@
+version: '3'
+services:
+  db:
+    image: postgres:latest
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
+    container_name: postgres
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+
+  django:
+    image: jkulikova/coodination_centre:latest
+    restart: always
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+
+volumes:
+  postgres_data:

@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Новости | Координационный центр{% endblock %}
+
+{% block topbar %}{% include "topbar.html" %}{% endblock topbar %}
+
+{% block header %}{% include "header.html" %}{% endblock header %}
+
+{% block content %}
+
+<!-- ======= Hero Section ======= -->
+<section id="hero" class="d-flex align-items-center">
+    <div class="container">
+      <h1>Возникла ошибка</h1>
+      <h2>Попробуйте обновить страницу или воспользуйтесь ссылкой на главную страницу.</h2>
+      <a href="/" class="btn-get-started scrollto">На главную</a>
+    </div>
+  </section><!-- End Hero -->
+
+{% endblock content %}
+
+{% block footer %}{% include "footer.html" %}{% endblock footer %}

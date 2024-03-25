@@ -1,0 +1,348 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block topbar %}{% include "topbar.html" %}{% endblock topbar %}
+
+{% block header %}{% include "header.html" %}{% endblock header %}
+
+{% block content %}
+<!-- ======= Hero Section ======= -->
+<section id="hero" class="d-flex align-items-center">
+    <div class="container">
+      <h1>Координационный центр</h1>
+      <h2>Мы делаем электронную промышленность более динамичной,</h2>
+      <h2>конкурентоспособной и адаптированной к вызовам будущего.</h2>
+      <a href="/about" class="btn-get-started scrollto">Узнать больше</a>
+    </div>
+  </section><!-- End Hero -->
+
+<main id="main">
+    <!-- ======= Why Us Section ======= -->
+    <section id="why-us" class="why-us">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 d-flex align-items-stretch">
+            <div class="content">
+              <h3>Чем занимается Координационный Центр?</h3>
+              <p>
+                Наш Центр нацелен на анализ и удовлетворение потребностей электронной промышленности, развитие сетевого взаимодействия между образовательными учреждениями и предприятиями, а также обучение кадров по востребованным направлениям, чтобы эффективно поддерживать рост отрасли.
+              </p>
+              <div class="text-center">
+                <a href="/about" class="more-btn">Подробнее <i class="bx bx-chevron-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 d-flex align-items-stretch">
+            <div class="icon-boxes d-flex flex-column justify-content-center">
+              <div class="row">
+                <div class="col-xl-4 d-flex align-items-stretch"><a href="/conferences">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="bx bx-receipt"></i>
+                    <h4>Конференции</h4>
+                    <p>Презентуйте свои доклады слушайте выступления других участников на конференциях, организованных Координационным Центром.</p>
+                  </div></a>
+                </div>
+                <div class="col-xl-4 d-flex align-items-stretch"><a href="/education">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="bx bx-cube-alt"></i>
+                    <h4>Образовательные программы</h4>
+                    <p>Изучите разнообразные образовательные программы для подготовки специалистов в микроэлектронике.</p>
+                  </div></a>
+                </div>
+                <div class="col-xl-4 d-flex align-items-stretch"><a href="/olympiads">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="bx bx-images"></i>
+                    <h4>Олимпиады</h4>
+                    <p>Участвуйте в олимпиадах, организованных как непосредственно Координационным Центром, так и нашими партнерами.</p>
+                  </div></a>
+                </div>
+              </div>
+            </div><!-- End .content-->
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Why Us Section -->
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="fas fa-people-group"></i>
+              <span data-purecounter-start="0" data-purecounter-end="30" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Сотрудников</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+            <div class="count-box">
+              <i class="far fa-building"></i>
+              <span data-purecounter-start="0" data-purecounter-end="18" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Подразделений</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="fas fa-atom"></i>
+              <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Разработанных направлений</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="fas fa-award"></i>
+              <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Наград и грантов</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
+    <!-- ======= Departments Section ======= -->
+    <section id="departments" class="departments">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Подразделения</h2>
+          <p>В этом разделе вы можете ознакомиться с основными подразделениями нашего Координационного Центра и узнать о их функциях и целях.</p>
+        </div>
+
+        <div class="row gy-4">
+          <div class="col-lg-3">
+            <ul class="nav nav-tabs flex-column">
+              <li class="nav-item">
+                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Программы</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Маркетинг</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Исследования</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Обучение</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-5">Аналитика</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-9">
+            <div class="tab-content">
+              <div class="tab-pane active show" id="tab-1">
+                <div class="row gy-4">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Разнообразные образовательные программы</h3>
+                    <p class="fst-italic">Познакомьтесь с нашим широким спектром образовательных программ, разработанных для удовлетворения потребностей студентов и профессионалов в области электронной промышленности.</p>
+                    <p>Наша программа включает курсы повышения квалификации, мастерские, вебинары и практические занятия, основанные на актуальных темах и требованиях индустрии. Мы стремимся обеспечить студентам и специалистам доступ к передовым знаниям и навыкам для успешной карьеры в электронной промышленности.</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="{% static 'assets/img/departments-1.jpg' %}" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-2">
+                <div class="row gy-4">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Продвижение и коммуникации</h3>
+                    <p class="fst-italic">Узнайте о наших маркетинговых стратегиях и коммуникационных подходах, направленных на установление контакта с нашей аудиторией и распространение информации о наших услугах.</p>
+                    <p>Мы используем разнообразные каналы, включая социальные сети, электронную почту, веб-сайт и мероприятия, чтобы донести до аудитории информацию о наших образовательных программах и исследовательских проектах. Наша цель - создать привлекательный и информативный контент, который вдохновляет и привлекает новых студентов и партнеров.</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="{% static 'assets/img/departments-2.jpg' %}" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-3">
+                <div class="row gy-4">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Научные исследования</h3>
+                    <p class="fst-italic">Узнайте о наших научных исследованиях в области электроники и микроэлектроники, направленных на решение ключевых проблем и развитие инновационных технологий.</p>
+                    <p>Наша команда специалистов и исследователей занимается широким спектром проектов, включая разработку новых материалов, технологий производства и интегрированных схем. Мы сотрудничаем с ведущими научными организациями и предприятиями для достижения наших целей и решения сложных технологических задач.</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="{% static 'assets/img/departments-3.jpg' %}" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-4">
+                <div class="row gy-4">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Подготовка и обучение кадров</h3>
+                    <p class="fst-italic">Узнайте о наших образовательных и тренинговых программах, направленных на развитие навыков и компетенций специалистов в области электронной промышленности.</p>
+                    <p>Мы предлагаем обширный выбор курсов, обучающих программ и мастер-классов, охватывающих различные аспекты электроники, от основных принципов до передовых технологий. Наши программы разработаны экспертами с учетом современных требований индустрии и призваны обеспечить выпускникам конкурентные преимущества на рынке труда.</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="{% static 'assets/img/departments-4.jpg' %}" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-5">
+                <div class="row gy-4">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Анализ данных и стратегий</h3>
+                    <p class="fst-italic">Узнайте о нашем подходе к анализу данных и разработке стратегий, направленных на оптимизацию процессов и принятие обоснованных решений.</p>
+                    <p>Мы используем передовые методы анализа данных и моделирования, чтобы извлечь ценную информацию из больших объемов данных и определить ключевые тенденции и возможности в индустрии электроники. Наши аналитики работают в тесном сотрудничестве с другими отделами, чтобы помочь оптимизировать стратегии и принимать обоснованные решения на основе данных.</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="{% static 'assets/img/departments-5.jpg' %}" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Departments Section -->
+
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    <section id="faq" class="faq section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>О нашей деятельности</h2>
+          <p>Здесь вы найдете информацию о целях, задачах и функциях Координационного Центра. Этот раздел предназначен для того, чтобы помочь вам быстро получить необходимую информацию и решить возможные вопросы, связанные с нашей деятельностью и услугами.</p>
+        </div>
+
+        <div class="faq-list">
+          <ul>
+            <li data-aos="fade-up">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Какова цель Координационного Центра? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+                <p>
+                  Целью Координационного центра является содействие Минобрнауки России и Минпромторгу России в совершенствовании системы подготовки кадров и развитии научно-технологической инфраструктуры образовательных организаций высшего образования и научных организаций, осуществляющих исследования и подготовку кадров в области микроэлектроники.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="100">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Какие задачи выполняет Центр? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  <ul class="dashed">
+                    <li>Анализ потребностей электронной промышленности в подготовке кадров и определение основных востребованных специальностей, квалификаций и компетенций для ускоренного развития отрасли.</li>
+                    <li>Взаимодействие с федеральными органами исполнительной власти с целью информационного обмена, получения запросов и реагирования по ним, формирования аналитических сведений.</li>
+                    <li>Координация реализации мероприятий федерального проекта образовательными организациями высшего образования и научными организациями.</li>
+                    <li>Координация образовательных организаций высшего образования и научных организаций по иным вопросам, касающимся подготовки кадров для предприятий микроэлектроники.</li>
+                    <li>Разработка и апробация инновационных образовательных программ по микроэлектронике для высшего, среднего и дополнительного профессионального образования.</li>
+                    <li>Подготовка высококвалифицированных кадров в области интегральной электроники для отечественных предприятий через основные образовательные программы высшего образования, среднего профессионального образования и дополнительного профессионального образования.</li>
+                    <li>Популяризация отрасли микроэлектроники в молодежной среде.</li>
+                  </ul>
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="200">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Каковы функции Координационного Центра? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  <ul class="dashed">
+                    <li>Сбор и агрегация информации о кадровой потребности предприятий электронной промышленности.</li>
+                    <li>Сбор и агрегация информации о подготовке кадров и научно-технических проектах в микроэлектронике от образовательных учреждений и научных организаций.</li>
+                    <li>Анализ собранной информации в аспектах кадровой потребности предприятий микроэлектроники.</li>
+                    <li>Разработка и сопровождение, в установленном порядке, документации по организации учебного процесса в МИЭТ.</li>
+                    <li>Разработка учебно-методического обеспечения и эффективное использование материально-технической базы для обеспечения качества реализации образовательных программ МИЭТ.</li>
+                    <li>Прогнозирование научно-технологического развития радиоэлектронной отрасли и кадровой потребности предприятий электронной промышленности.</li>
+                    <li>Участие в организации учебного процесса высшего и среднего профессионального образования, дополнительного профессионального образования и стажировки научно-педагогических кадров и работников предприятий.</li>
+                    <li>Предоставление предложений Координационного центра «Кадровое обеспечение микроэлектроники» на заседания Совета по развитию электронной промышленности.</li>
+                    <li>Публикация открытых информационно-аналитических материалов.</li>
+                    <li>Организация научно-образовательных и состязательных мероприятий для привлечения молодежи в отрасль.</li>
+                  </ul>
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="300">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Карта предприятий микроэлектроники<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Af80cfa03dc0054bdb876447a0b83c9ccbb29350cbdeb2853f63b4060c9151b3f&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </section><!-- End Frequently Asked Questions Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Контакты</h2>
+          <p>В этом разделе вы найдете контактную информацию нашего Координационного Центра, позволяющую связаться с нами для получения дополнительной информации, задать вопросы или оставить отзыв. Наша дружелюбная команда всегда готова помочь вам в решении любых вопросов.</p>
+        </div>
+      </div>
+
+      <div>
+        <iframe style="border:0; width: 100%; height: 350px;" src="https://yandex.ru/map-widget/v1/?ll=37.205654%2C55.981833&mode=poi&poi%5Bpoint%5D=37.204923%2C55.981745&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D145381620222&z=18.69" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="container">
+        <div class="row mt-5">
+
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Адрес:</h4>
+                <p>площадь Шокина, 1с8, Зеленоградский административный округ, Москва, Зеленоград</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>mscc@miee.ru</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0">
+
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Имя" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Тема сообщения" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Текст сообщения" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Отправить</button></div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+{% endblock content %}
+
+{% block footer %}{% include "footer.html" %}{% endblock footer %}

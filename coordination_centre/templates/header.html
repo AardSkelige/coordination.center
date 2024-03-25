@@ -1,0 +1,43 @@
+{% load static %}
+<!-- ======= Header ======= -->
+<header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+    <a href="/" class="logo me-auto"><img src="{% static 'assets/img/logo.png' %}" alt="" class="img-fluid"></a>
+
+    <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" id="127.0.0.1:8000" href="/">Главная</a></li>
+          <li><a class="nav-link scrollto" href="/news" id="news">Новости</a></li>
+
+          <li class="dropdown"><a class="nav-link scrollto" id="events" href="/events"><span>Мероприятия</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Конференции</a></li>
+              <li><a href="#">Олимпиады</a></li>
+              <li><a href="#">Круглые столы</a></li>
+              <li><a href="#">Другие</a></li>
+            </ul>
+          </li>
+          <li class="dropdown "><a class="nav-link scrollto" id="education" href="/education"><span>Программы</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Профессиональная переподготовка (ПП)</a></li>
+              <li><a href="#">Повышение квалификации (ПК)</a></li>
+              <li><a href="#">Стажировки</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a class="nav-link scrollto" id="about" href="/about"><span>О нас</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Контакты</a></li>
+              <li><a href="#">Документы</a></li>
+              <li><a href="#">Информация</a></li>
+              <li><a href="#">Брендбук</a></li>
+            </ul>
+          </li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <a href="/account" class="appointment-btn scrollto"><span class="d-none d-md-inline">Личный кабинет</span></a>
+
+    </div>
+</header><!-- End Header -->
